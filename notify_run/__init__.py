@@ -14,7 +14,7 @@ except ImportError:
 
 DEFAULT_API_SERVER = environ.get(
     'NOTIFY_API_SERVER', 'https://notify.run/api/')
-CONFIG_FILENAME = '/notify-run'
+CONFIG_FILENAME = 'notify-run'
 
 
 class NotConfigured(Exception):
